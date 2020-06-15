@@ -35,5 +35,17 @@ Required permissions:
 - Create `config.json` file with `config.default.json` as a reference
 - Run the bot with `python3 bot.py`
 
+## Comparison with other wormhole bots
+### [Septapus](https://github.com/iopred/bruxism)
+- Does not have clear documentation
+- Sends the message to random wormhole -- and they are 60k of them
+- Cannot be used to any reasonable conversation
+- Uses webhooks and messages are sent as embeds
+### [Wormhole](https://discordbotlist.com/bots/wormhole)
+- Offline, without public repo
+### [Whiskers](https://discordbotlist.com/bots/whiskers)
+- Uses embassy system, can only connect two guilds
+- Apparently uses webhooks, like one of ancient versions of this bot did
+
 ## License
 Released under the GNU GPL v3
